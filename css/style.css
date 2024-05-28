@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+/* font-family: "Poetsen One", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Noto Serif", serif; */
+
+:root{
+    --primarycolor: #ffffff;
+    --secondarycolor: #053c8e;
+}
+
+h1{
+    font-family: "Poetsen One", sans-serif;
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poetsen One", sans-serif;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+p,
+a,
+li,
+td,
+input,
+label {
+    font-family: "Noto Serif", serif;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+body {
+    max-width: 100%;
+    align-items: center;
+}
+
+nav{
+    background: transparent;
+}
+
+nav img{
+    width: 100px;
+    margin: 0 30px;
+    margin-right: 200px;
+}
+
+/* HERO */
+
+#hero{
+    background-image: ;
+}
