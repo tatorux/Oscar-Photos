@@ -46,13 +46,43 @@ nav{
 }
 
 nav img{
-    width: 100px;
+    width: 150px;
     margin: 0 30px;
     margin-right: 200px;
 }
 
+nav.bg-photos ul li a{
+    font-weight: 500;
+    color: var(--primarycolor);
+    position: relative;
+    bottom: 2px;
+    left: 10px;
+    transition: .4s;
+}
+
+nav.bg-photos ul li a::after {
+    width: 0;
+    height: 2px;
+    background: transparent;
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: 10px;
+    transition: .4s;
+}
+
+nav.bg-navport ul li a:hover {
+    color: var(--secondarycolor);
+}
+
+nav.bg-photos ul li a:hover::after {
+    background: var(--primary-color);
+    width: 40%;
+}
+
 /* HERO */
 
-#hero{
-    background-image: ;
+header{
+    background-image: url("../img/Fondo.png");
+    background-size: 100%;
 }
