@@ -6,13 +6,14 @@
 
 :root{
     --primarycolor: #ffffff;
-    --secondarycolor: #053c8e;
+    --secondarycolor: #003476;
 }
 
 h1{
     font-family: "Poetsen One", sans-serif;
+    color: var(--primarycolor);
     font-size: 50px;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 h2,
@@ -21,8 +22,9 @@ h4,
 h5,
 h6 {
     font-family: "Poetsen One", sans-serif;
+    color: var(--primarycolor);
     font-size: 40px;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 p,
@@ -32,57 +34,128 @@ td,
 input,
 label {
     font-family: "Noto Serif", serif;
+    color: var(--primarycolor);
     font-size: 18px;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 body {
+    background: #C1E4F0;
     max-width: 100%;
     align-items: center;
 }
 
-nav{
-    background: transparent;
+header{
+    background-image: url("../img/Hero.jpg");
+    background-size: 100%;
+    align-items: center;
+    align-content: center;
 }
 
-nav img{
-    width: 150px;
-    margin: 0 30px;
-    margin-right: 200px;
+nav.bg-navport {
+    background: #C1E4F0;
 }
 
-nav.bg-photos ul li a{
-    font-weight: 500;
-    color: var(--primarycolor);
+nav .navbar-brand img {
+    width: 160px;
+}
+
+nav.bg-navport ul li a {
+    color: var(--secondarycolor);
+    font-weight: 600;
     position: relative;
-    bottom: 2px;
-    left: 10px;
+    margin: 0 6px;
     transition: .4s;
 }
 
-nav.bg-photos ul li a::after {
+nav.bg-navport ul li a::after {
     width: 0;
-    height: 2px;
-    background: transparent;
+    height: 3px;
+    background: var(--secondarycolor);
     content: "";
+    left: 5px;
+    bottom: 5px;
     position: absolute;
-    bottom: 2px;
-    left: 10px;
+    transition: .4s;
+}
+
+nav.bg-navport ul li a::before{
+    width: 0;
+    height: 3px;
+    background: var(--secondarycolor);
+    content: "";
+    left: 5px;
+    top: 5px;
+    position: absolute;
     transition: .4s;
 }
 
 nav.bg-navport ul li a:hover {
     color: var(--secondarycolor);
 }
-
-nav.bg-photos ul li a:hover::after {
-    background: var(--primary-color);
+nav.bg-navport ul li a:hover::before {
     width: 40%;
 }
 
+nav.bg-navport ul li a:hover::after {
+    width: 80%;
+}
+
+
+
+
 /* HERO */
 
-header{
-    background-image: url("../img/Fondo.png");
+#hero{
+    background: url("../img/Hero.jpeg");
     background-size: 100%;
+    height: 800px;
+    align-items: center;
+    align-content: center;
+}
+
+#hero .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#hero .row .cont-info h1{
+    font-size: 60px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+#hero .row .cont-info h1::after{
+    width: 40%;
+    height: 4px;
+    background: #ffffff;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+
+#hero .row .cont-info h1::before{
+    width: 60%;
+    height: 4px;
+    background: #ffffff;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#hero .row .cont-info a{
+    margin-left: 50px;
+    font-size: 18px;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+}
+
+#hero .row .cont-info p{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 30px;
 }
