@@ -344,3 +344,50 @@ nav.bg-navport ul li a:hover::after {
     font-size: 20px;
     color: #003476;
 }
+
+
+
+
+/* contacto */
+
+#contacto{
+    color: #003476;
+    text-align: center;
+}
+
+#contacto h2{
+    color: #003476;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#contacto p{
+    color: #003476;
+    margin-bottom: 10px;
+
+}
+
+#contacto p a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+
+#contacto img{
+    margin-bottom: 10px;
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+
+/* footer */
+
+footer{
+    border-top: 2px solid #000000;
+    text-align: center;
+}
+
+footer p{
+    margin: 20px 0;
+    color: #000000;
+}
