@@ -126,7 +126,7 @@ nav.bg-navport ul li a:hover::after {
 }
 
 #hero .cont-info h1::after{
-    width: 40%;
+    width: 100px;
     height: 4px;
     background: #ffffff;
     content: "";
@@ -136,7 +136,7 @@ nav.bg-navport ul li a:hover::after {
 }
 
 #hero .cont-info h1::before{
-    width: 60%;
+    width: 200px;
     height: 4px;
     background: #ffffff;
     content: "";
@@ -169,7 +169,7 @@ nav.bg-navport ul li a:hover::after {
 /* section1 */
 
 #seccion1{
-    background: #f3f2f2;
+    background: #efeded;
     max-width: 100%;
 }
 
@@ -200,7 +200,7 @@ nav.bg-navport ul li a:hover::after {
 }
 
 #seccion1  .cont-fotos{
-    background: #C1E4F0;
+    background: #c1e4f0;
     position: relative;
     margin: 90px 0;
     width: 350px;
@@ -230,4 +230,117 @@ nav.bg-navport ul li a:hover::after {
 #seccion1 .cont-fotos .img4{
     top: 150px;
     right: -40px;
+}
+
+
+
+
+
+
+/* seccion2 */
+
+#seccion2{
+    background: url("../img/fondo-secction-2.png");
+    background-size: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#seccion2 .cont-galery{
+    display: grid;
+    place-content: center;
+}
+
+#seccion2 .gallery{
+    position: relative;
+    margin: 150px 0;
+    width: 350px;
+    height: 400px;
+}
+
+#seccion2 .gallery img{
+    position: absolute;
+    width: 100px;
+}
+
+#seccion2 .gallery .img1{
+    left: -50px;
+    top: -30px;
+}
+
+#seccion2 .gallery .img2{
+    left: 90px;
+    top: -70px;
+    width: 120px;
+}
+
+#seccion2 .gallery .img3{
+    right: -50px;
+    top: 30px;
+    width: 150px;
+}
+
+#seccion2 .gallery .img4{
+    bottom: 140px;
+    left: 70px;
+    width: 170px;
+}
+
+#seccion2 .gallery .img5{
+    right: -70px;
+    bottom: -20px;
+    width: 160px;
+}
+
+#seccion2 .gallery .img6{
+    bottom: 70px;
+    left: -80px;
+    width: 130px;
+}
+
+#seccion2 .gallery .img7{
+    bottom: -40px;
+    left: 90px;
+}
+
+#seccion2 .info-2{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#seccion2 .info-2 h2{
+    color: var(--secondarycolor);
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+#seccion2 .info-2 p{
+    color: var(--secondarycolor);
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+
+#seccion2 .info-2 .card{
+    border: 3px solid #003476;
+    text-align: center;
+    margin: 0 10px;
+}
+
+#seccion2 .info-2 .card img{
+    width: 100%;
+}
+
+#seccion2 .info-2 .card h5{
+    margin-left: 0;
+    font-size: 18px;
+    color: #003476;   
+}
+
+#seccion2 .info-2 h3{
+    margin: 10px 0;
+    font-size: 20px;
+    color: #003476;
 }
