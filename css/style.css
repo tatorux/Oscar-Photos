@@ -629,7 +629,9 @@ footer p{
     width: 300px;
     margin-bottom: 50px;
 }
-
+#contacto a{
+    margin: 0px 0px;
+}
 }
 
 
