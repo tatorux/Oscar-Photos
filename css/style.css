@@ -608,6 +608,10 @@ footer p{
 
 /* contacto */
 
+#contacto{
+    text-align: left;
+}
+
 #contacto h2{
     color: #003476;
     margin-top: 30px;
