@@ -348,6 +348,109 @@ nav.bg-navport ul li a:hover::after {
 
 
 
+/* seccion3 */
+
+#seccion3{
+    background: url("../img/fondo-secction-2.png");
+    background-size: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#seccion3 .cont-galery1{
+    display: grid;
+    place-content: center;
+}
+
+#seccion3 .gallery1{
+    position: relative;
+    margin: 150px 0;
+    width: 350px;
+    height: 400px;
+}
+
+#seccion3 .gallery1 img{
+    position: absolute;
+    width: 100px;
+}
+
+#seccion3 .gallery1 .img1{
+    left: -130px;
+    top: 20px;
+    width: 180px;
+}
+
+#seccion3 .gallery1 .img2{
+    left: 60px;
+    top: -10px;
+    width: 180px;
+}
+
+#seccion3 .gallery1 .img3{
+    right: -70px;
+    top: -20px;
+    width: 150px;
+}
+
+#seccion3 .gallery1 .img4{
+    bottom: 140px;
+    left: 70px;
+    width: 175px;
+}
+
+#seccion3 .gallery1 .img5{
+    right: -70px;
+    bottom: -20px;
+    width: 150px;
+}
+
+#seccion3 .gallery1 .img6{
+    bottom: 50px;
+    left: -100px;
+    width: 150px;
+}
+
+#seccion3 .gallery1 .img7{
+    bottom: -10px;
+    left: 60px;
+    width: 200px;
+}
+
+#seccion3 .info-3{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#seccion3 .info-3 h2{
+    color: var(--secondarycolor);
+    padding-top: 90px;
+    padding-bottom: 10px;
+}
+
+#seccion3 .info-3 p{
+    color: var(--secondarycolor);
+    font-weight: 600;
+}
+
+#seccion3 .info-3 .boton{
+    color: #c1e4f0;
+    font-size: 25px;
+    background-color: #000000;
+    text-decoration: none;
+    padding: 15px 20px;
+    border: 3px;
+    border-radius: 15px;
+}
+
+#seccion3 .info-3 .boton :hover{
+    color: #000000;
+    background-color: #c1e4f0;
+}
+
+
+
 /* contacto */
 
 #contacto{
@@ -431,6 +534,37 @@ footer p{
 
 }
 
+/* seccion3 */
+
+#seccion3 .info-3{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#seccion3 .info-3 h2{
+    color: var(--secondarycolor);
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#seccion3 .info-3 p{
+    color: var(--secondarycolor);
+    font-weight: 600;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+#seccion3 .info-3 .boton{
+    color: #c1e4f0;
+    font-size: 25px;
+    background-color: #000000;
+    text-decoration: none;
+    padding: 15px 20px;
+    margin-left: 70px;
+    border: 3px;
+    border-radius: 15px;
+}
 
 
 
@@ -604,6 +738,64 @@ footer p{
 }
 
 
+
+/* SECCION3 */
+
+#seccion3 .gallery1 .img1{
+    left: 10px;
+    top: 40px;
+    width: 90px;
+}
+
+#seccion3 .gallery1 .img2{
+    left: 110px;
+    top: 30px;
+    width: 90px;
+}
+
+#seccion3 .gallery1 .img3{
+    right: 50px;
+    top: 20px;
+    width: 70px;
+}
+
+#seccion3 .gallery1 .img4{
+    top: 110px;
+    left: 110px;
+    width: 90px;
+}
+
+#seccion3 .gallery1 .img5{
+    right: 50px;
+    bottom: 150px;
+    width: 80px;
+}
+
+#seccion3 .gallery1 .img6{
+    bottom: 150px;
+    left: 10px;
+    width: 80px;
+}
+
+#seccion3 .gallery1 .img7{
+    bottom: 130px;
+    left: 110px;
+    width: 100px;
+}
+
+#seccion3 .info-3 h2{
+    padding-top: -30px;
+    font-size: 30px;
+}
+
+#seccion3 .info-3 p{
+    font-size: 15px;
+}
+
+#seccion3 .info-3 .boton{
+    font-size: 15px;
+    margin-left: 30px;
+}
 
 
 /* contacto */
@@ -815,6 +1007,65 @@ footer p{
     color: #003476;
 }
 
+
+
+/* SECCION3 */
+
+#seccion3 .gallery1 .img1{
+    left: 10px;
+    top: 40px;
+    width: 90px;
+}
+
+#seccion3 .gallery1 .img2{
+    left: 110px;
+    top: 30px;
+    width: 90px;
+}
+
+#seccion3 .gallery1 .img3{
+    right: 50px;
+    top: 20px;
+    width: 70px;
+}
+
+#seccion3 .gallery1 .img4{
+    top: 110px;
+    left: 110px;
+    width: 90px;
+}
+
+#seccion3 .gallery1 .img5{
+    right: 50px;
+    bottom: 150px;
+    width: 80px;
+}
+
+#seccion3 .gallery1 .img6{
+    bottom: 150px;
+    left: 10px;
+    width: 80px;
+}
+
+#seccion3 .gallery1 .img7{
+    bottom: 130px;
+    left: 110px;
+    width: 100px;
+}
+
+#seccion3 .info-3 h2{
+    padding-top: -30px;
+    font-size: 30px;
+}
+
+#seccion3 .info-3 p{
+    font-size: 15px;
+}
+
+#seccion3 .info-3 .boton{
+    font-size: 15px;
+    margin-left: 30px;
+}
 
 
 
